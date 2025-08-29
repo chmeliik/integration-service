@@ -11,6 +11,9 @@
     "includePaths": [
       ".tekton/**"
     ],
+    "replacement": {
+      "prBodyNotes": []
+    },
     "packageRules": [
       {
         "matchPackageNames": [
