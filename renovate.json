@@ -43,11 +43,12 @@
           "/^quay.io/redhat-appstudio-tekton-catalog//"
         ],
         "matchUpdateTypes": ["replacement"],
-        "groupName": "Konflux references replacement",
         "branchPrefix": "konflux/references-replacement/",
-        "commitMessageAction": "Replace",
-        "commitMessageTopic": "redhat-appstudio-tekton-catalog references",
-        "commitMessageExtra": "with equivalent konflux-ci/tekton-catalog references"
+        "groupName": "Konflux references replacement",
+        "group": {
+          "commitMessageTopic": "redhat-appstudio-tekton-catalog references",
+          "commitMessageExtra": "with equivalent konflux-ci/tekton-catalog references"
+        }
       },
       {
         "matchPackageNames": [
