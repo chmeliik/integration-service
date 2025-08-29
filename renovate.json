@@ -49,7 +49,10 @@
           "commitMessageTopic": "redhat-appstudio-tekton-catalog references",
           "commitMessageExtra": "",
           "commitBody": "redhat-appstudio-tekton-catalog is deprecated, replace the references\nwith equivalent konflux-ci/tekton-catalog references"
-        }
+        },
+        "prBodyNotes": [
+          "This is a special PR that replaces the deprecated `{{{depName}}}` with the konflux-ci/tekton-catalog equivalent."
+        ]
       },
       {
         "matchPackageNames": [
