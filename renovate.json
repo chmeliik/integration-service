@@ -44,7 +44,10 @@
         ],
         "matchUpdateTypes": ["replacement"],
         "groupName": "Konflux references replacement",
-        "branchPrefix": "konflux/references-replacement/"
+        "branchPrefix": "konflux/references-replacement/",
+        "commitMessageAction": "Replace",
+        "commitMessageTopic": "redhat-appstudio-tekton-catalog references",
+        "commitMessageExtra": "with equivalent konflux-ci/tekton-catalog references"
       },
       {
         "matchPackageNames": [
