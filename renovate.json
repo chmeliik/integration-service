@@ -20,7 +20,7 @@
         "branchPrefix": "konflux/references/",
         "additionalBranchPrefix": "",
         "group": {
-          "branchTopic": "{{{baseBranch}}}{{#if (equals updateType 'replacement')}}-replacement{{/if}}",
+          "branchTopic": "{{{baseBranch}}}",
           "commitMessageTopic": "{{{groupName}}}"
         },
         "commitMessageTopic": "Konflux references",
